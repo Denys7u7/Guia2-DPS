@@ -14,19 +14,6 @@ const Form = () => {
     }
     const handleChangeN = e => setNumero(e.target.value);
     const handleClick = e => {
-
-        switch(numero){
-            case '':
-                alert('Entro al switch')
-                return
-        }
-
-        switch(palabra){
-            case '':
-                alert('Entro al switch palabra')
-                return
-        }
-
       
         if(numero.trim() === '' || palabra.trim() === ''){
             alert('Los campo no puede estar vacio')
